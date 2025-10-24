@@ -124,7 +124,7 @@ reports/            # Final insights & recommendations (PDF)
 
 ## 🚀 How to Reproduce
 1. Clone the repository.  
-2. Open the notebook: `notebooks/Walmart_BlackFriday_EDA_CI.ipynb`  
+2. Open the notebook: `notebooks/YuluBikeDemandAnalysis.ipynb`  
 3. Run step-by-step analysis and review plots, sampling distributions, and confidence intervals.  
 4. Check `/reports/` for visuals and final insights.
 

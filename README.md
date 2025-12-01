@@ -116,7 +116,7 @@ Statistical tests were used to validate business questions.
 ## 📂 Project Structure
 ```
 data/                # Dataset files  
-notebooks/           # Colab notebook  
+notebooks/           # Pythin notebook  
 reports/            # Final insights & recommendations (PDF)  
 ```
 

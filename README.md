@@ -102,6 +102,27 @@ Statistical tests were used to validate business questions.
 
 ---
 
+## Advanced SQL for Operational Monitoring
+Even though the analysis is in Python, real-world analysts at companies like Uber, Swiggy, Zomato, Blinkit often monitor demand through SQL-driven dashboards and alerts. So I added advanced SQL queries that mirror real production use cases:
+
+### Included in sql/advanced_sql_analysis.sql:
+- 7-day rolling averages
+- Day-over-day percent change
+- Week-over-week drop flags (>30% drop)
+- Top demand hours per season
+- Partitioned ranking with window functions
+
+### These queries demonstrate:
+- Analytical SQL
+- Time-series logic
+- CTE pipelines
+- Operational alerting
+- Metric creation for dashboards
+- Business problem → SQL solution thinking
+
+### SQL file:
+sql/advanced_sql_analysis.sql
+
 ## 🧰 Tools & Technologies
 
 | Category | Tools |
@@ -117,7 +138,8 @@ Statistical tests were used to validate business questions.
 ```
 data/                # Dataset files  
 notebooks/           # Pythin notebook  
-reports/            # Final insights & recommendations (PDF)  
+reports/             # Final insights & recommendations (PDF)
+sql/                 # advanced_sql_analysis.sql
 ```
 
 ---
